@@ -1,0 +1,21 @@
+.label{
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.button {
+    width: 100px;
+    padding: 12px;
+    border-radius: 20px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: rgb(75, 97, 195);
+}

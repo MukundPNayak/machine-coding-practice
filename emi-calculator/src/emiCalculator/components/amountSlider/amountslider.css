@@ -1,0 +1,19 @@
+.label {
+  font-weight: bold;
+  margin: 4px;
+}
+
+.total {
+  text-decoration: underline;
+}
+
+
+.amountContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.slider {
+    width: 80%;
+    margin: 4px;
+}

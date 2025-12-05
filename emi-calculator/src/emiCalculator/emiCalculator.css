@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.numberInput {
+    width: 80%;
+}
