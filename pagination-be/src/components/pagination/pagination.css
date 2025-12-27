@@ -1,0 +1,33 @@
+.pagination-container {
+  position: fixed;
+  bottom: 8px;
+  left: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.pagination-button {
+  cursor: pointer;
+  height: 30px;
+  width: 40px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  padding: 4px;
+  margin: 2px;
+}
+
+.selected {
+  background-color: #2f80ed;
+  color: #ffffff;
+}
+
+.page-size {
+  margin-left: 4px;
+}
+
+
+.page-select {
+    width: 50px;
+    height: 30px;
+    margin: 8px;
+}

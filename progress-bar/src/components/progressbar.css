@@ -1,0 +1,25 @@
+.parent {
+  margin: 8px auto;
+  width: 500px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 12px;
+  overflow: hidden; /* prevents child overflow */
+  position: relative;
+}
+
+.filled {
+  background-color: #00c251;
+  height: 100%;
+  transition: width 0.15s linear ;
+}
+
+.percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%; /* puts the left edge of the text at the center of the parent */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Moves the element left/top by 50% of its own width */
+}
