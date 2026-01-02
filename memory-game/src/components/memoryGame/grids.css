@@ -1,0 +1,35 @@
+.container {
+  margin-top: 16px;
+}
+
+.grid-container {
+  display: grid;
+  margin-top: 16px;
+  gap: 8px;
+}
+
+.grid-closed {
+  background-color: rgb(239, 232, 232);
+  cursor: pointer;
+}
+
+.grid-item {
+  height: 60px;
+  border: 1px solid black;
+}
+
+.grid-clicked {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #4A90E2;
+}
+
+.grid-matched{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #4CAF50;
+}

@@ -1,0 +1,25 @@
+.grid-cell {
+  width: 40px;
+  height: 40px;
+  margin: 4px;
+}
+
+.grid-cell--active {
+  border: 1px solid black;
+  cursor: pointer;
+  background: #eee;
+}
+
+.grid-cell--empty {
+  border: none;
+  cursor: none;
+  background: transparent;
+}
+
+.grid-cell-clicked {
+  background-color: green;
+}
+
+.grid-row {
+  display: flex;
+}
