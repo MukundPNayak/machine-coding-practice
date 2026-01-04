@@ -1,0 +1,17 @@
+.grid {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  user-select: none;
+  margin: 1px;
+}
+
+.selectedGrid {
+  background-color: aqua;
+}
+
+.container {
+  display: grid;
+}
