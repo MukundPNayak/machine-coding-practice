@@ -6,11 +6,11 @@ const SelectableGrid = ({ rows = 10, cols = 10 }) => {
   const [selectedGrids, setSelectedGrids] = useState(new Set());
 
   const handleMouseDown = (index) => {
-    setSelectedGrids(new Set());
     const startRow = Math.floor(index / cols);
     const startCol = index % cols;
 
     const handleMouseMove = (e) => {
+
 
       const index = Number(e.target.dataset.index);
       if (Number.isNaN(index)) return;
