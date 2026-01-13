@@ -1,0 +1,50 @@
+.navbar {
+  height: 50px;
+  background-color: #3a4f7a;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-left: 32px;
+}
+
+.navbar span {
+    color: white;
+}
+
+.link {
+  color: white;
+}
+
+.toggleBox {
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  
+}
+
+.toggleBox input {
+  /* display: none;  for accessibility dont do this*/ 
+  opacity: 0;
+}
+
+.knob {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.25s ease;
+}
+
+.toggleBox.on .knob {
+  transform: translateX(20px);
+}
+
+.toggleBox.on {
+  background-color: #4f46e5;
+}
