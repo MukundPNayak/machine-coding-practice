@@ -1,0 +1,32 @@
+.container {
+  margin: 20px;
+  width: 400px;
+}
+
+.inputwrapper {
+  min-height: 30px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  width: 100px;
+}
+
+.dropDownIcon {
+  margin-left: auto;
+  padding-right: 6px;
+}
+
+.search-result {
+  width: 400px;
+  border: 1px solid black;
+  padding: 2px;
+}
+
+.selected-search-result {
+  background-color: rgb(88, 177, 232);
+}

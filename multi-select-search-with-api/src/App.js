@@ -1,11 +1,7 @@
 import MultiSelectSearch from "./components/MultiSelectSearch";
 
 function App() {
-  return (
-    <div>
-      <MultiSelectSearch />
-    </div>
-  );
+  return <MultiSelectSearch />;
 }
 
 export default App;

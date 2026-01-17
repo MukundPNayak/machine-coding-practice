@@ -1,0 +1,45 @@
+.container {
+  margin: 30px;
+}
+
+.input-wrapper {
+  width: 800px;
+  border: 1px solid black;
+  border-radius: 8px !important;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.input-wrapper input {
+  border: none;
+  outline: none;
+  padding: 4px;
+}
+
+.results-container {
+  width: 300px;
+  max-height: 400px;
+  overflow: auto;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.result {
+  height: 20px;
+  border: 1px solid black;
+  margin: 4px;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: aqua;
+}
+
+
+.highlighted {
+  background-color: gray;
+}

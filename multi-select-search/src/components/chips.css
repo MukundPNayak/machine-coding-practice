@@ -1,0 +1,21 @@
+.chips-container {
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.chip {
+   border: 1px solid gray;
+   border-radius: 4px;
+   padding: 2px;
+}
+
+.x-btn {
+    margin-left: 2px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
