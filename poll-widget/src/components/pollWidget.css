@@ -1,0 +1,57 @@
+.container {
+  margin: 16px;
+}
+
+input {
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+}
+
+.poll-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  margin: 8px;
+}
+
+.option-text {
+  display: flex;
+  align-items: center;
+}
+
+.votes {
+  margin-left: auto;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.votes {
+  margin-left: auto;
+}
+
+.progress-filled {
+  background-color: purple;
+  height: inherit;
+}
+
+.remove-btn {
+  background-color: red;
+  cursor: pointer;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+.remove-btn:disabled {
+  cursor: not-allowed;
+}

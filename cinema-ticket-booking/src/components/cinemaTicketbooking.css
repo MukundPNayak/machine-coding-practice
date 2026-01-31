@@ -1,0 +1,65 @@
+.container {
+  margin: 16px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row-name {
+  margin-right: 8px;
+}
+
+.seats {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.select-btn {
+  height: 40px;
+  cursor: pointer;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 8px;
+  width: 40px;
+}
+
+.vip {
+  background-color: lightgoldenrodyellow;
+}
+
+.premium {
+  background-color: rgb(238, 196, 238);
+}
+
+.regular {
+  background-color: rgb(211, 237, 247);
+}
+
+.selected {
+  background-color: blue;
+}
+
+.book-btn {
+  margin-top: 10px;
+  height: 40px;
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: green;
+  font-size: medium;
+  color: white;
+}
+
+.book-btn:disabled {
+  background-color: rgb(182, 177, 177);
+  color: black;
+  font-size: medium;
+  cursor: not-allowed;
+}
+
+.booked{
+    background-color: gray;
+    cursor: not-allowed;
+}

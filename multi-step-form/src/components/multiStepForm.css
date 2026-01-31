@@ -1,0 +1,27 @@
+.container {
+  margin: 12px;
+  width: 500px;
+  border: 1px solid gray;
+  padding: 24px;
+}
+
+.btn-container {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-container button {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-container button:disabled {
+    cursor: not-allowed;
+    background-color: white;
+    color: rgb(55, 52, 52);
+}

@@ -1,0 +1,13 @@
+.select-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-container label {
+  font-weight: 600;
+}
+
+.select-container select {
+  height: 25px;
+  width: 90px;
+}

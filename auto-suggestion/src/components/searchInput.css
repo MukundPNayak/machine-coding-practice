@@ -1,0 +1,32 @@
+.container {
+  margin: 24px;
+}
+
+.search-input {
+  height: 30px;
+  width: 400px;
+}
+
+.suggestion-container {
+  max-width: 400px;
+  border: 1px solid gainsboro;
+  height: 400px;
+  overflow: auto;
+}
+
+.suggestion {
+  box-sizing: border-box;
+  padding: 8px;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+.suggestion:last-child {
+  border-bottom: none;
+}
+
+
+.highlighted {
+    background-color: lightblue;
+}

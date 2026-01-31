@@ -1,0 +1,12 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container label {
+  font-weight: 600;
+}
+
+.input-container input {
+  height: 25px;
+}

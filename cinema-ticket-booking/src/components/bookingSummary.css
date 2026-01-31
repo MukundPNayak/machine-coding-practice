@@ -1,0 +1,15 @@
+.booking-summary {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.total {
+  margin: 0;
+  color: rgb(34, 141, 34);
+}
+
+.heading {
+  margin: 0;
+}

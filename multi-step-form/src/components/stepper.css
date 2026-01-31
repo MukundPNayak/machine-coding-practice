@@ -1,0 +1,40 @@
+.icon {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-container {
+  display: flex;
+}
+
+.icon-class {
+  width: 20px;
+  height: 20px;
+}
+
+.line {
+  height: 4px;
+  width: 100px;
+  border-bottom: 2px solid;
+  border-color: rgb(222, 216, 216);
+  margin: 20px;
+  padding: 0 !important;
+}
+
+.black-line {
+  border-color: black;
+}
+
+.step-children {
+  display: flex;
+}
+
+.filled-icon {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,34 @@
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.success-icon-container {
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  color: green;
+  background-color: rgb(182, 235, 182);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.submit-btn {
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  padding: 4px;
+  margin-top: 12px;
+  border-radius: 8px;
+}
