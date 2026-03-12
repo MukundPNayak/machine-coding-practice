@@ -12,9 +12,8 @@ const Form = ({ formConfig, onChange, formData, errors }) => {
         const Renderer = TYPE_VS_RENDERER[type] || TextInput;
 
         return (
-          <div>
+          <div key={id}>
             <Renderer
-              key={id}
               id={id}
               name={name}
               value={formData[id]}

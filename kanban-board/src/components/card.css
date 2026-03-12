@@ -1,0 +1,45 @@
+.card {
+  border: 0.5px solid lightblue;
+  margin: 8px;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-heading{
+  display: flex;
+}
+
+.card-heading button {
+  cursor: pointer;
+}
+
+
+.card h4 {
+  margin: 4px;
+}
+
+
+.edit-container input {
+  width: 80%;
+}
+
+.save-btn {
+  color:white;
+  background-color: green;
+  margin-right: 4px;
+  padding: 4px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.cancel-btn {
+  color: white;
+  background-color: red;
+   padding: 4px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}

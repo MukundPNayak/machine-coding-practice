@@ -1,11 +1,10 @@
-import Parent from "./practice/react-portal/Parent";
-
 import "./App.css";
+import KanbanBoard from "./components/KanbanBoard";
 
 function App() {
   return (
     <div className="App">
-      <Parent name="Mukund" />
+      <KanbanBoard />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 export const validateName = (value) => {
   const regex = /^[A-Za-z ]+$/;
   if (!regex.test(value)) {
+    console.log('name')
     return "Name can only contain Alphabets";
   }
   return "";
@@ -26,4 +27,6 @@ export const validateRequiredField = (value, name) => {
   if (!value || value.trim().length === 0) {
     return `${name} Cannot be empty`;
   }
+
+  return "";
 };

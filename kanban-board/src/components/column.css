@@ -1,0 +1,14 @@
+.column {
+  border: 1px solid lightgray;
+  padding: 8px;
+  margin: 8px;
+}
+
+.addBtn {
+  padding: 4px;
+  border: 1px solid gray;
+  background-color: green;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}

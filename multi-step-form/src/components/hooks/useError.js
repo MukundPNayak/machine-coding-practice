@@ -8,22 +8,21 @@ const useError = () => {
     const newErrors = {};
 
     currentFormConfig.forEach((field) => {
-      console.log(field);
       const { id, isRequired, validator, name } = field;
+      const value = formData[id];
+
+      let error = null;
 
       if (isRequired) {
-        const err = validateRequiredField(formData[id], name);
-        if (err) {
-          newErrors[id] = err;
-          return;
-        }
+        error = validateRequiredField(value, name);
       }
 
-      if (validator) {
-        const err = validator(formData[id]);
-        if (err) {
-          newErrors[id] = err;
-        }
+      if (!error && validator) {
+        error = validator(value);
+      }
+
+      if (error) {
+        newErrors[id] = error;
       }
     });
 

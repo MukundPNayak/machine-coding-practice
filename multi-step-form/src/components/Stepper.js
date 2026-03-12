@@ -20,8 +20,8 @@ const Stepper = ({ currentTabIndex }) => {
         const blackLineClass = finished ? "black-line" : "";
 
         return (
-          <div className="step-children">
-            <div className="step-item" key={id}>
+          <div className="step-children" key={id}>
+            <div className="step-item">
               <div className={`icon ${selectedIconClass}`}>
                 <IconRenderer className="icon-class" />
               </div>
