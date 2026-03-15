@@ -1,0 +1,20 @@
+.btn {
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.info-toast-btn {
+  background-color: grey;
+  color: white;
+}
+
+.error-toast-btn {
+  background-color: red;
+  color: white;
+}
+
+.success-toast-btn {
+  background-color: green;
+  color: white;
+}
